@@ -1,0 +1,25 @@
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+<body id="booking-page">
+    <h1>Book Your Appointment</h1>
+
+    {% if condition and doctor %}
+        <p><strong>Condition:</strong> {{ condition }}</p>
+        <p><strong>Recommended Doctor:</strong> {{ doctor }}</p>
+    {% endif %}
+
+    <form method="POST">
+        <label>Name:</label><br>
+        <input type="text" name="name" required><br><br>
+
+        <label>NHS ID:</label><br>
+        <input type="text" name="nhs_id" required><br><br>
+
+        <label>Date:</label><br>
+        <input type="date" name="date" required><br><br>
+
+        <label>Time:</label><br>
+        <input type="time" name="time" required><br><br>
+
+        <button type="submit">Confirm Appointment</button>
+    </form>
+</body>

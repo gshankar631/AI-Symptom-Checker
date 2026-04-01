@@ -1,0 +1,15 @@
+Condition,Symptoms,Doctor
+Common Viral Infection,"fever,cough,sore throat,runny nose,body ache",General Physician
+Respiratory Issue,"wheezing,shortness of breath,chest tightness,cough,fatigue,blue lips",Pulmonologist
+Severe Chest Problem,"chest pain,shortness of breath,sweating,nausea,arm pain,dizziness",Cardiologist
+Digestive Problem,"abdominal pain,bloating,diarrhea,constipation,nausea,loss of appetite",Gastroenterologist
+Kidney/Urinary Problem,"frequent urination,back pain,blood in urine,abdominal pain,swelling,fatigue",Nephrologist
+Skin Condition,"itching,rash,redness,dry skin,blisters,swelling",Dermatologist
+Joint/Muscle Pain,"joint pain,stiffness,swelling,back pain,muscle weakness,limited movement",Orthopedic Surgeon
+Eye Problem,"blurry vision,eye pain,headache,red eyes,double vision,loss of vision",Ophthalmologist
+Ear/Nose/Throat Issue,"sore throat,nasal congestion,facial pain,ear pain,hearing loss,runny nose",ENT Specialist (Otolaryngologist)
+Allergic Reaction,"sneezing,itchy eyes,swelling,runny nose,hives,breathing difficulty",Allergist / Immunologist
+Mental Health Concern,"sadness,anxiety,fatigue,irritability,sleep problems,loss of interest",Psychiatrist
+Women's Health Issue,"missed period,abdominal pain,irregular periods,bloating,nausea,fatigue",Gynecologist / Obstetrician (OB/GYN)
+General Weakness,"fatigue,weight changes,dizziness,dizzy,pale skin,loss of appetite,weakness,weak",General Physician
+Blood-related Issue,"frequent infections,bruising,pale skin,fatigue,bleeding gums,shortness of breath",Hematologist

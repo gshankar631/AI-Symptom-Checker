@@ -1,0 +1,121 @@
+/* background welcome page */
+body#welcome-page, body#check-page {
+    background: linear-gradient(to right, #aafbfb, #0bbaef);
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Headings welcome page*/
+h1 {
+    color: #000000;
+    text-align: center;
+    margin-top: 1cm; 
+}
+
+/* Paragraphs welcome page*/
+p {
+    font-size: 18px;
+    color: #0c0c0c;
+    text-align: center;
+    margin: 20px;
+}
+
+/* Labels 2nd page*/
+label {
+    font-size: 18px;
+    color: #020202;
+    display: block;
+    margin-bottom: 10px;
+    text-align: center;
+    margin: 20px auto;
+}
+
+/* Textarea */
+textarea {
+    width: 80%;  /* responsive width instead of fixed 1520px */
+    max-width: 800px;
+    height: 50px;
+    padding: 30px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+     /* Centering part */
+    display: block;         /* Makes sure margin auto works properly */
+    margin: 0 auto;
+}
+
+/* Buttons */
+button {
+    padding: 10px 20px;
+    margin-top: 10px;
+    font-size: 16px;
+    background-color: #2E86C1;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #1B4F72;
+}
+
+/* Result box */
+.result {
+    margin-top: 20px; 
+    padding: 15px; 
+    border: 1px solid #ccc; 
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+/* Emergency message */
+.emergency { 
+    color: red; 
+    font-weight: bold; 
+    font-size: 16px;
+}
+
+/* Link buttons */
+a.button {
+    display: block;
+    width: fit-content;
+    margin: 30px auto 0;
+    padding: 15px 30px;
+    font-size: 18px;
+    color: white;
+    background-color: #2E86C1;
+    text-decoration: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+a.button:hover {
+    background-color: #1B4F72;
+}
+
+/* Doctor, booking, confirmation pages */
+body#doctor-page, body#booking-page, body#confirmation-page {
+    background-color: #f0f8ff;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+/* Form styling */
+form {
+    display: inline-block;
+    margin-top: 20px;
+    text-align: left;
+}
+
+/* Inputs for booking page */
+input[type="text"], input[type="date"], input[type="time"] {
+    width: 80%;
+    max-width: 400px;
+    padding: 8px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
